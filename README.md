@@ -14,7 +14,8 @@ This repository contains an Extract, Transform, and Load (ETL) pipeline develope
 ##### ├── dags/ │
 ##### ├── etlweather.py # Main Airflow DAG file defining the ETL workflow 
 ##### ├── include/ │ 
-##### ├── SQL/ # SQL files for database schema and queries ##### ├── plugins/ 
+##### ├── SQL/ # SQL files for database schema and queries 
+##### ├── plugins/ 
 ##### │ └── custom_operators/ # Custom Airflow operators (if any) 
 ##### ├── Dockerfile # Containerization for deployment 
 ##### ├── requirements.txt # Python dependencies 
